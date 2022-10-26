@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration_page</title>
+  <style>
+    body {
+      background: ghostwhite;
+      color: white;
+      background-image: url(https://cdn.pixabay.com/photo/2018/04/05/14/09/sunflowers-3292932__340.jpg);
+      background-size: cover;
+    }
+
+    div {
+      text-align: center;
+      border: 2px solid;
+    }
+
+    a {
+      font-style: unset;
+      color: brown;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1 id="header">REGISTRATION</h1>
+    <form>
+      <label for="fname">FIRST NAME</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">LAST NAME</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="number">PHONE NUMBER</label><br>
+      <input type="tel" id="number" name="number"><br>
+      <label for="email">EMAIL</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="gender" id="GENDER"> GENDER</label><br>
+      <select>
+        name="GENDER"
+        <option>male</option>
+        <option>female</option>
+      </select><br>
+      <label>DATE OF BIRTH</label><br>
+      <input type="date" id="birthday" name="birthday"><br>
+      <label>FAVORITE COLOR</label><br>
+      <input type="color" id="color" name="color"><br>
+      <div class="register">
+        <a href="login.html">REGISTER</a><br>
+      </div>
+  </div>
+  </form>
+
+</body>
+
+</html>
